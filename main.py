@@ -1,6 +1,8 @@
 import random
+import csv
 
 VIKING_SCRIPT = ["ᚠ", "ᚢ", "ᚦ", "ᚩ", "ᚱ", "ᚳ", "ᚷ", "ᚹ", "ᚺ", "ᚾ", "ᛁ", "ᛃ", "ᛇ", "ᛈ", "ᛉ", "ᛋ", "ᛏ", "ᛒ", "ᛖ", "ᛗ", "ᛚ", "ᛜ", "ᛟ", "ᛞ", "ᚪ", "ᚫ", "ᚣ", "ᛡ", "ᛠ"]
+
 
 class Encryption:
 
@@ -15,7 +17,7 @@ class Encryption:
     
     def viking_encryption(self):
 
-        runic = random.sample(VIKING_SCRITP, 10)
+        runic = random.sample(VIKING_SCRIPT, 10)
         runic_string = ""
 
         for i in runic:
